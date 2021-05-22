@@ -1,0 +1,55 @@
+body {
+  background-image: url(books.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.login-div {
+  /*BEGINNING OF CENTER ALIGNMENT*/
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  /*END OF CENTER ALIGNMENT*/
+  color: #689C98;
+  border: 10px solid #689C98;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+}
+
+/*.login-div form {
+  display: flex;
+  justify-content: center;
+}*/
+
+.login-div form input {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+.login-div form p {
+  float: center;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.login-div form input[type="submit"] {
+  justify: center;
+  margin: auto;
+  text-align: center;
+  background-color: #689C98;
+  color: white;
+  border: 1px solid #689C98;
+}
+
+#login {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
